@@ -5,9 +5,8 @@ const ProductList = () => {
     return (
         <div>
             ProductList
-            fix
         </div>
     );
 }
 
-export default ProductList;
+export default ProductList
