@@ -1,7 +1,7 @@
 import React from 'react';
 import { useTelegram } from '../../hooks/useTelegram';
 
-const header = () => {
+const Header = () => {
     const {user, onClose} = useTelegram() 
 
 
@@ -15,4 +15,4 @@ const header = () => {
     );
 }
 
-export default header;
+export default Header;
