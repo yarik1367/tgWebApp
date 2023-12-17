@@ -5,7 +5,7 @@ const tg = window.Telegram.WebApp;
 
 function App() {
 
-  const {onToggleButton, tg} = useTelegram();
+  const {onToggleButton, tg, onClose} = useTelegram();
 
   useEffect(() => {
     tg.ready();
